@@ -3,10 +3,10 @@ entries:
   piraeus:
   - apiVersion: v2
     appVersion: v2.9.0
-    created: "2025-09-10T15:33:42.066187+01:00"
+    created: "2025-09-10T15:41:00.427577+01:00"
     description: 'The Piraeus Operator manages software defined storage clusters using
       LINSTOR in Kubernetes. '
-    digest: d34805b883f35e1be60f44981cc7927ebe05f8b8bce843cb1139e498c7aa9f70
+    digest: 5beb4ddcc9bdf8e68e6ba357a5b747cb6d420ccef173a3751a2f38174457c66a
     home: https://piraeus.io
     icon: https://raw.githubusercontent.com/piraeusdatastore/piraeus/master/artwork/sandbox-artwork/icon/color.svg
     keywords:
@@ -23,4 +23,4 @@ entries:
     urls:
     - https://kibamail.github.io/piraeus-datastore-helm-charts/piraeus-2.9.0.tgz
     version: 2.9.0
-generated: "2025-09-10T15:33:42.065152+01:00"
+generated: "2025-09-10T15:41:00.426731+01:00"
