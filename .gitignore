@@ -1,8 +1,2 @@
-# Helm chart packages
-*.tgz
-
-# Helm repository files
-.helmignore
-
 # Claude Code
 .claude/

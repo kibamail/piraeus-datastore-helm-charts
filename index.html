@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piraeus Datastore Helm Charts</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        code { background: #f4f4f4; padding: 2px 4px; border-radius: 3px; }
+        pre { background: #f4f4f4; padding: 15px; border-radius: 5px; overflow-x: auto; }
+    </style>
+</head>
+<body>
+    <h1>Piraeus Datastore Helm Charts</h1>
+    
+    <p>This is a Helm chart repository hosting Piraeus Operator charts.</p>
+    
+    <h2>Usage</h2>
+    
+    <h3>Add the repository:</h3>
+    <pre><code>helm repo add piraeus-datastore https://kibamail.github.io/piraeus-datastore-helm-charts/</code></pre>
+    
+    <h3>Update repositories:</h3>
+    <pre><code>helm repo update</code></pre>
+    
+    <h3>Search for charts:</h3>
+    <pre><code>helm search repo piraeus-datastore</code></pre>
+    
+    <h3>Install the Piraeus Operator:</h3>
+    <pre><code>helm install my-piraeus piraeus-datastore/piraeus --create-namespace -n piraeus-datastore</code></pre>
+    
+    <h2>Available Charts</h2>
+    <ul>
+        <li><strong>piraeus</strong> (v2.9.0) - The Piraeus Operator manages software defined storage clusters using LINSTOR in Kubernetes.</li>
+    </ul>
+    
+    <h2>Repository Files</h2>
+    <ul>
+        <li><a href="index.yaml">index.yaml</a> - Helm repository index</li>
+        <li><a href="piraeus-2.9.0.tgz">piraeus-2.9.0.tgz</a> - Piraeus chart package</li>
+    </ul>
+    
+    <p><em>Powered by GitHub Pages</em></p>
+</body>
+</html>
